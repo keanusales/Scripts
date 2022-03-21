@@ -54,9 +54,9 @@ int main()
         s = s + v[i];
     }
     if (s%k != 0) j = 1;
-    for (i = 0; i < k; i++)
+    else for (i = 0; i < k; i++)
     {
-        if (s/k != v[i]) j = 1;
+        if (s/k != v[i]) {j = 1; break;}
     }
     if (j == 0) cout << v[0];
     else cout << -1;
