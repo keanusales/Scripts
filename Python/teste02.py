@@ -1,3 +1,1 @@
-frase = input("Qual é a frase? ")
-autor = input("Qual é o autor? ")
-print("A frase é", '"' + frase + '"', "do autor", autor + ".")
+print("A frase é", '"' + input("Qual é a frase? ") + '"', 'do autor', input('Qual é o autor? ') + ".")
