@@ -1,0 +1,14 @@
+ipykernel
+matplotlib
+numpy
+scipy
+polars-lts-cpu
+fastexcel
+opencv-python
+pyinstaller
+cython
+easycython
+bitarray
+torch
+torchvision
+torchaudio
